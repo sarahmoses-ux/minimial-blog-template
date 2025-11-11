@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Sayflux profile card</title>
+  </head>
+  <body>
+    <!-- card -->
+    <div
+      class="max-w-sm h-[400px] my-20 mx-auto bg-gray-100 rounded-2xl shadow-x overflow-hidden"
+    >
+      <div class="bg-blue-900 w-full h-[120px] relative">
+        <img
+          src="/PP.jpg"
+          alt="image"
+          class="mx-auto h-35 w-35 rounded-full border-2 border-white object-cover absolute left-1/3 top-1/9"
+        />
+      </div>
+      <div class="flex flex-col items-center mt-10 gap-2">
+        <h1 class="font-extrabold text-xl italic uppercase">Sarah Moses</h1>
+        <p class="font-semibold text-gray-900">Mobile-App/ Web3 Dev.</p>
+""
+        <!-- icons -->
+        <ul class="flex gap-4">
+          <li
+            class="rounded-full border px-2 py-0.5 bg-blue-600 cursor-pointer text-white font-bold hover:shadow-lg hover:scale-3 transition duration-300"
+          >
+            in
+          </li>
+          <li class="rounded-full border px-2 py-0.5 bg-black cursor-pointer text-white font-bold hover:shadow-lg hover:scale-3 transition duration-300">X</li>
+          <li class="rounded-full border px-3 py-0.5 bg-blue-600 cursor-pointer text-white font-bold hover:shadow-lg hover:scale-3 transition duration-300">f</li>
+          <li></li>
+        </ul>
+        <!-- call to action -->
+        <div class="flex gap-3 mt-8">
+          <button class="text-white bg-black px-4 py-2 rounded-full cursor-pointer">View Profile</button>
+          <button class="bg-white hover:bg-blue-900/5 font semibold text-black px-4 py-2 rounded-full cursor-pointer border-2 transition duration-300">Message Me</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
